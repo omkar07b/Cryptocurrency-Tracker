@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+.crypto-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 8px;
+}
+@media (width>=768px) {
+  .crypto-container {
+    font-size: 12px;
+  }
+}
+.crypto-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.crypto-name {
+  width: 50%;
+}
+.usd-value {
+  width: 25%;
+}
+.euro-value {
+  width: 25%;
+}

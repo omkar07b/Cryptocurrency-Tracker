@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.cryptocurrency-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 100vh;
+}
+.main-heading {
+  color: #00e7ff;
+  text-align: center;
+}
+.cryptos-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #00e7ff;
+  color: white;
+  border-radius: 8px;
+}
+.cryptocurrency-image {
+  width: 90%;
+}
+.table-header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #092e33;
+  font-size: 10px;
+}
+@media (width>=768px) {
+  .table-header-container {
+    font-size: 15px;
+  }
+}
+.coin-type-cell {
+  width: 50%;
+}
+.usd-cell {
+  width: 25%;
+}
+.euro-cell {
+  width: 25%;
+}
